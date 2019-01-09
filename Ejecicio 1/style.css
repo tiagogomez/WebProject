@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    border: 1px solid;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    height: 80px; top: 0px;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: wheat; 
+}
+.firstContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;     /*viene por defecto pero  lo quiero poner para que no se me olvide*/
+    margin-top: 20px
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: row;     /*viene por defecto pero  lo quiero poner para que no se me olvide*/
+    margin-top: 20px
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.myLittleSquare {
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    margin-left: 20px;
+}
+
+.myLittleSquare:first-child{
+    margin-left: 0;
+}
+
+.myLittleSquare2 {
+    width: 100%;
+    background-color: red;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.myLittleSquare2:first-child {
+    margin-left: 0;
+}
+
+.myLittleCentralSquare {
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+}
